@@ -1,0 +1,28 @@
+{
+    "name": "serdud/laravel-api-response",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Dudin",
+            "email": "serdud@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "^6|^7|^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "serdud\\ApiResponse\\": "src/"
+        },
+        "files": [
+            "src/ResponseHelper.php"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev"
+}
